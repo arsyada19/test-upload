@@ -1,0 +1,7 @@
+class MainWin:
+  def __init__(self):
+    super().__init__()
+    self.set_appear()# mengatur seperti apa tampilan jendela
+    self.initUI() # membuat dan mengkonfigurasi elemen grafis
+    self.connects() # membangun hubungan antar elemen
+    self.show() # start
